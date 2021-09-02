@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import {AppStyle} from "./App.style";
 
 function App() {
   return (
@@ -17,9 +18,11 @@ function App() {
         >
           Learn React
         </a>
-        <div className="parent" data-testid="parent">
-          <div className="child" data-testid="child">im here</div>
-        </div>
+        <AppStyle>
+          <div className="parent" data-testid="parent">
+            <div className="child" data-testid="child">im here</div>
+          </div>
+        </AppStyle>
       </header>
     </div>
   );

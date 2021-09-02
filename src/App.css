@@ -36,11 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.parent .child {
-  visibility: hidden;
-}
-
-.parent:hover .child {
-  visibility: visible;
-}
